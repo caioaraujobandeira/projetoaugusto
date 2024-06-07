@@ -18,7 +18,8 @@ def avaliacao_carro(preco):
 
 lista_carros = [
     "fiat", "mustang", "mercedes", "argo", "jeep",
-    "ferrari", "pajero", "duster", "onix", "gol"
+    "ferrari", "pajero", "duster", "onix", "gol", 
+    "bmw", "ram", "sw4", "tiguan", "nissan", "ford ka"
 ]
 
 print("Lista de carros disponíveis:")
@@ -46,5 +47,5 @@ while continuar.lower() == 's':
         print(
             f"O valor do {nome_carro} é {preco_carro}. Já o valor da {qualidade_carro} é {preco_carro}.")
 
-    # Perguntando se o usuário quer continuar
+    #Pergunta se o usuário quer continuar
     continuar = input("Você quer continuar? (s/n): ")
